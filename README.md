@@ -73,7 +73,11 @@ A forma mais simples de fazer o deploy de Next.js é utilizando a [Plataforma Ve
 
 Verifique a [documentação de deploy do Next.js](https://nextjs.org/docs/deployment) para mais detalhes.
 
-## Passo a passo do nosso fluxo de código
+# Passo a passo do nosso fluxo de código
+
+<p align="center">
+  <img src="./images/gitfluxo.png" alt="Chakra logo" />
+</p>
 
 ⚠️ É extremamente importante o conhecimento de [Git](https://git-scm.com/). ⚠️
 
@@ -104,8 +108,6 @@ PATCH: quando você corrigir erros compatíveis com versões anteriores.
 ```
 $git checkout -b release/MAJOR.MINOR.PATCH
 ```
-
-
 
 5. Agora que você está na branch release/x.y.z você deve atualizar o arquivo Package.json para a versão da release.
 
