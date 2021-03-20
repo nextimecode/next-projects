@@ -1,4 +1,16 @@
-## :smiley: Começando ##
+<p align="center">
+  <a href="https://github.com/chakra-ui/chakra-ui">
+    <img src="./images/logo_text.png" alt="Chakra logo" />
+  </a>
+</p>
+
+<h1 align="center">Seja bem-vindo à NeXTIME 🦅</h1>
+
+Aqui está a documentação do fluxo de desenvolvimento Web com NextJS
+
+## Primeiro precisamos entender algumas coisas:
+
+Os nossos 
 
 Primeiro, rode o servidor de desenvolvimento:
 
