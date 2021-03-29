@@ -8,6 +8,10 @@
 
 Aqui está a documentação do fluxo de desenvolvimento Web com NextJS
 
+## REPOSITÓRIO DEFAULT da NeXTIME para a criação de projetos em NextJS
+
+- [nextime-nextjs-start](https://github.com/nextimecode/nextime-nextjs-start)
+
 ## Primeiro precisamos entender algumas coisas:
 
 Os nossos projetos são desenvolvidos com:
@@ -22,12 +26,34 @@ Os nossos projetos são desenvolvidos com:
 
 ## Iniciando um projeto NextJS na NeXTIME
 
-Criamos o repositório [nextime-nextjs-start](https://github.com/nextimecode/nextime-nextjs-start)
-para que ele sirva como um repositório default para criarmos novos projetos utilizando NextJS.
+1. Crie um repositório para armazenar o projeto, utilizando a conta da NeXTIME e as seguintes informações:
 
-Copie os arquivos desse repositório para o seu novo repositório.
+* OWNER: `nextimecode`
+* REPOSITORY NAME: `X-Y-Z`
+  * X: Nome do time
+  * Y: Tipo de projeto
+  * Z: Nome do projeto
+  * Exemplos: `f02-web-eimilhas` ou `f03-mobile-projetox`
+* Selecionar modo **Public**
+* Marcar a caixa **Add a README file**
 
-Temos nesse projeto [nextime-nextjs-start](https://github.com/nextimecode/nextime-nextjs-start) algumas coisas interessantes para ajudarmos os desenvolvedores.
+2. Dê acesso a todos os envolvidos no projeto ao repositório do Github.
+
+3. Crie um diretório para o projeto em sua máquina local, seguindo os passos a seguir:
+   1. Abra o Git Bash no diretório onde o projeto será armazenado na sua máquina.
+   2. Clone o [**projeto default**](https://github.com/nextimecode/nextime-nextjs-start) no diretório local do projeto com `git clone URL_DO_REPOSITÓRIO_DEFAULT`.
+
+4. Suba o código inicial do projeto com o uso do Git Bash, seguindo os passos a seguir:
+   1. Inicie o projeto com o comando `git init -b main`.
+   2. Fazer stage dos arquivos para commit com `git add .`.
+   3. Fazer commit dos arquivos com `git commit -m "Primeiro Commit"`.
+   4. Adicione o repositório de destino com `git remote add origin URL_DO_REPOSITÓRIO_DESEJADO`.
+   5. Verifique se o endereço está correto com `git remote -v`.
+   6. Finalmente, suba as alterações com `git push origin main`.
+
+5. No Github, utilizando sua conta, solicite o **pull request** do código e peça a aprovação ao coordenador do projeto.
+
+## Trabalhando no Projeto
 
 Se você observar no Package.json na parte de scripts do projeto, ao darmos commit ele irá rodar:
 
