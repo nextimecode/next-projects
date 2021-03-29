@@ -29,12 +29,11 @@ Os nossos projetos são desenvolvidos com:
 1. Crie um repositório para armazenar o projeto, utilizando a conta da NeXTIME e as seguintes informações:
 
 * OWNER: `nextimecode`
-* REPOSITORY NAME: `X-Y-Z`
-  * X: Nome do time
-  * Y: Tipo de projeto
-  * Z: Nome do projeto
-  * Exemplos: `f02-web-eimilhas` ou `f03-mobile-projetox`
-* Selecionar modo **Public**
+* REPOSITORY NAME: `X-Y`
+  * X: Tipo de projeto
+  * Y: Nome do projeto
+  * Exemplos: `web-eimilhas` ou `mobile-projetox`
+* Questionar ao coordenador se o código do projeto deverá ficar em modo **Public** ou **Privado**
 * Marcar a caixa **Add a README file**
 
 2. Dê acesso a todos os envolvidos no projeto ao repositório do Github.
