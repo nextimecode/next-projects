@@ -44,7 +44,7 @@ Os nossos projetos são desenvolvidos com:
 
 4. Suba o código inicial do projeto com o uso do Git Bash, seguindo os passos a seguir:
    1. Inicie o projeto com o comando `git init -b main`.
-   2. Fazer stage dos arquivos para commit com `git add .`.
+   2. Fazer stage dos arquivos para commit com `git add -A`.
    3. Fazer commit dos arquivos com `git commit -m "Primeiro Commit"`.
    4. Adicione o repositório de destino com `git remote add origin URL_DO_REPOSITÓRIO_DESEJADO`.
    5. Verifique se o endereço está correto com `git remote -v`.
