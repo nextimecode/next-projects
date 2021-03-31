@@ -6,13 +6,13 @@
 
 <h1 align="center">Seja bem-vindo à NeXTIME 🦅</h1>
 
-Aqui está a documentação do fluxo de desenvolvimento Web com NextJS
-
 ## REPOSITÓRIO DEFAULT da NeXTIME para a criação de projetos em NextJS
 
 - [nextime-nextjs-start](https://github.com/nextimecode/nextime-nextjs-start)
 
 ## Primeiro precisamos entender algumas coisas:
+
+Aqui está a documentação do fluxo de desenvolvimento Web com NextJS
 
 Os nossos projetos são desenvolvidos com:
 
@@ -24,11 +24,13 @@ Os nossos projetos são desenvolvidos com:
 - [Git](https://git-scm.com/)
 - [Github](https://github.com/)
 
-## Criando o projeto NextJS no Github
+# Iniciando um projeto NextJS na NeXTIME
 
-1. Acesse a conta da NeXTIME no Github
+## Criando o projeto no Github
 
-2. Crie um repositório para armazenar o projeto, utilizando as seguintes informações:
+1. Acesse a conta **nextimecode** da NeXTIME no Github
+
+2. Crie um repositório para armazenar o projeto, utilizando a conta da NeXTIME as seguintes informações:
 
 * OWNER: **`nextimecode`**
 * REPOSITORY NAME: **`X-Y`**
