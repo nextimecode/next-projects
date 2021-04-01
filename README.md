@@ -168,7 +168,7 @@ $git push --set-upstream origin release/x.y.z
 
 🚨 Ná dúvida se deve ou não fazer esse Merge, procure alguém 🚨
 
-11. Quando o merge foi feito com a margem vá até o code do projeto e edite a tag da branch main para ficar de acordo com a release. A tag agora deve ser **x.y.z**.
+11. Quando o merge foi feito com a main vá até o code do projeto e edite a tag da branch main para ficar de acordo com a release. A tag agora deve ser **x.y.z**.
 
 Se você chegou até aqui é porque você fez seu primeiro deploy. 
 
