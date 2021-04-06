@@ -6,13 +6,13 @@
 
 <h1 align="center">Seja bem-vindo à NeXTIME 🦅</h1>
 
-Aqui está a documentação do fluxo de desenvolvimento Web com NextJS
-
 ## REPOSITÓRIO DEFAULT da NeXTIME para a criação de projetos em NextJS
 
 - [nextime-nextjs-start](https://github.com/nextimecode/nextime-nextjs-start)
 
 ## Primeiro precisamos entender algumas coisas:
+
+Aqui está a documentação do fluxo de desenvolvimento Web com NextJS
 
 Os nossos projetos são desenvolvidos com:
 
@@ -24,33 +24,69 @@ Os nossos projetos são desenvolvidos com:
 - [Git](https://git-scm.com/)
 - [Github](https://github.com/)
 
-## Iniciando um projeto NextJS na NeXTIME
+# Iniciando um projeto NextJS na NeXTIME
 
-1. Crie um repositório para armazenar o projeto, utilizando a conta da NeXTIME e as seguintes informações:
+## Criando o projeto no Github
 
-* OWNER: `nextimecode`
-* REPOSITORY NAME: `X-Y`
+1. Acesse a conta **nextimecode** da NeXTIME no Github
+
+2. Crie um repositório para armazenar o projeto, utilizando a conta da NeXTIME as seguintes informações:
+
+* OWNER: **`nextimecode`**
+* REPOSITORY NAME: **`X-Y`**
   * X: Tipo de projeto
   * Y: Nome do projeto
   * Exemplos: `web-eimilhas` ou `mobile-projetox`
-* Questionar ao coordenador se o código do projeto deverá ficar em modo **Public** ou **Privado**
+* Questionar ao coordenador se o código do projeto deverá ficar em modo **Public** ou **Private**
 * Marcar a caixa **Add a README file**
 
-2. Dê acesso a todos os envolvidos no projeto ao repositório do Github.
+3. Dê acesso a todos os envolvidos no projeto ao repositório do Github.
 
-3. Crie um diretório para o projeto em sua máquina local, seguindo os passos a seguir:
+4. Crie um diretório para o projeto em sua máquina local, seguindo os passos a seguir:
    1. Abra o Git Bash no diretório onde o projeto será armazenado na sua máquina.
-   2. Clone o [**projeto default**](https://github.com/nextimecode/nextime-nextjs-start) no diretório local do projeto com `git clone URL_DO_REPOSITÓRIO_DEFAULT`.
+   2. Clone o [**projeto default**](https://github.com/nextimecode/nextime-nextjs-start) no diretório local do projeto com **`git clone URL_DO_REPOSITÓRIO_DEFAULT`**.
 
-4. Suba o código inicial do projeto com o uso do Git Bash, seguindo os passos a seguir:
-   1. Inicie o projeto com o comando `git init -b main`.
-   2. Fazer stage dos arquivos para commit com `git add -A`.
-   3. Fazer commit dos arquivos com `git commit -m "Primeiro Commit"`.
-   4. Adicione o repositório de destino com `git remote add origin URL_DO_REPOSITÓRIO_DESEJADO`.
-   5. Verifique se o endereço está correto com `git remote -v`.
-   6. Finalmente, suba as alterações com `git push origin main`.
+5. Suba o código inicial do projeto com o uso do Git Bash, seguindo os passos a seguir:
+   1. Inicie o projeto com o comando **`git init -b main`**.
+   2. Fazer stage dos arquivos para commit com **`git add -A`**.
+   3. Fazer commit dos arquivos com **`git commit -m "Primeiro Commit"`**.
+   4. Adicione o repositório de destino com **`git remote add origin URL_DO_REPOSITÓRIO_DESEJADO`**.
+   5. Verifique se o endereço está correto com **`git remote -v`**.
+   6. Finalmente, suba as alterações com **`git push origin main`**.
 
-5. No Github, utilizando sua conta, solicite o **pull request** do código e peça a aprovação ao coordenador do projeto.
+6. No Github, utilizando sua conta, solicite o **pull request** do código e peça a aprovação ao coordenador do projeto.
+
+## Vinculando projeto à Vercel
+
+1. Crie o projeto na Vercel
+
+   1. Acessar a conta da NeXTIME na [Vercel](https://vercel.com/).
+   2. Iniciar a criação do projeto no botão **New Project**
+   3. Importar o repositório Git onde está armazenado o projeto que será vinculado à Vercel clicando em **Import**.
+   4. Selecionar a **PERSONAL ACCOUNT** da NeXTIME clicando em **Import**.
+   5. Inserir os seguintes dados antes de iniciar o Deployment:
+
+- PROJECT NAME: **`MESMO_NOME_DO_REPOSITÓRIO`**
+- FRAMEWORK PRESET: **`Next.js`**
+- Marcar a caixa **./**
+
+   6. Finalizar clicando em **Deploy**.
+
+2. Configurar o domínio do projeto na Vercel
+   1. Acessar o projeto no [Dashboard da Vercel](https://vercel.com/dashboard).
+   2. Acessar as configurações de Domínio pelo menu **Settings -> Domains**
+   3. Inserir o(s) domínio(s) contratado(s), **ex. `projetox.com.br`** e clicar em **Add**.
+   4. Selecionar a opção recomendada com a tag **Recommended** e clicar em **ADD**.
+
+3. Configurar o DNS no administrador de registro de domínio. Neste exemplo, utilizaremos o *registro.br*. Porém, caso o domínio seja contratado em outras plataformas, os procedimentos podem ser aplicados de forma análoga.
+   1. Acessar o painel utilizando os dados do contratante do domínio
+   2. Selecionar o domínio que será configurado, pelo exemplo, *`projetox.com.br`*.
+   3. Inserir os seguintes dados de DNS, na seção **DNS -> ALTERAR SERVIDORES DNS**:
+
+- Servidor 1: **`ns1.vercel-dns.com`**
+- Servidor 2: **`ns2.vercel-dns.com`**
+
+   4. Aguardar as alterações
 
 ## Trabalhando no Projeto
 
@@ -91,12 +127,6 @@ Para aprender mais sobre Next.js, de uma olhada nas seguintes fontes:
 - [Aprenda Next.js](https://nextjs.org/learn) - um tutorial interativo de Next.js.
 
 Você pode verificar o [repositório no GitHub do Next.js](https://github.com/vercel/next.js/) - comentários e contribuições serão bem vindas!
-
-## Deploy na Vercel
-
-A forma mais simples de fazer o deploy de Next.js é utilizando a [Plataforma Vercel](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) dos mesmos criadores do Next.js.
-
-Verifique a [documentação de deploy do Next.js](https://nextjs.org/docs/deployment) para mais detalhes.
 
 # Passo a passo do nosso fluxo de código
 
