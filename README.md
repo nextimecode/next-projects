@@ -98,6 +98,8 @@ A forma mais simples de fazer o deploy de Next.js é utilizando a [Plataforma Ve
 
 Verifique a [documentação de deploy do Next.js](https://nextjs.org/docs/deployment) para mais detalhes.
 
+[Ou seguir esse tutorial](https://gabrielcordeiro.dev/blog/como-fazer-deploy-na-vercel/)
+
 # Passo a passo do nosso fluxo de código
 
 <p align="center">
