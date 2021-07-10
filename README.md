@@ -18,11 +18,39 @@ Os nossos projetos são desenvolvidos com:
 
 - [React JS](https://reactjs.org/)
 - [Nextjs](https://nextjs.org/)
+- [Chakra-ui](https://chakra-ui.com/)
 - [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 - [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/)
 - [NodeJS](https://nodejs.org/pt-br/)
 - [Git](https://git-scm.com/)
 - [Github](https://github.com/)
+- [Conventionalcommits](https://www.conventionalcommits.org/en/v1.0.0/)
+
+## Conventional commits
+
+Padrão:
+
+nome_do_comando: mensagem_do_commit
+
+Versionamento [MAJOR.MINOR.PATCH]
+
+Resumo dos nome_do_comando para commit:
+
+Principais:
+
+fix: um commit do tipo fix, corrige um bug em sua base de código, isso se correlaciona com o PATCH (Controle de versão semântica).
+feat: um commit do tipo feat introduz um novo recurso para a base de código, isso se correlaciona com o MINOR (Controle de versão semântica).
+breaking: um commit do tipo breaking introduz uma alteração de API que irá quebrar o código, isso se correlaciona com o MAJOR (Controle de Versão Semântico).
+
+Outros: Todos iram adicionar ao PATCH: 
+
+build: mudanças que afetam o sistema de build ou dependências externas (escopos de exemplo: gulp, broccoli, npm)
+ci: Mudanças em nossos arquivos e scripts de configuração de CI (escopos de exemplo: Travis, Circle, BrowserStack, SauceLabs)
+test: adicionar testes ausentes ou corrigir testes existentes
+docs: Alterações apenas na documentação
+perf: uma mudança de código que melhora o desempenho
+refactor: uma alteração de código que não corrige um bug nem adiciona um recurso 
+style: alterações que não afetam o significado do código (espaço em branco, formatação, ponto e vírgula ausente, etc)
 
 ## Iniciando um projeto NextJS na NeXTIME
 
