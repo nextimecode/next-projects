@@ -25,6 +25,7 @@ Os nossos projetos são desenvolvidos com:
 - [Git](https://git-scm.com/)
 - [Github](https://github.com/)
 - [Conventionalcommits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Clean Code with JS](https://medium.com/trainingcenter/c%C3%B3digo-limpo-vers%C3%A3o-javascript-80adecafdbec)
 
 ## Conventional commits
 
