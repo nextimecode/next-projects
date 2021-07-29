@@ -25,9 +25,21 @@ Os nossos projetos são desenvolvidos com:
 - [Git](https://git-scm.com/)
 - [Github](https://github.com/)
 - [Conventionalcommits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Commitlint](https://github.com/conventional-changelog/commitlint)
+- [Husky](https://github.com/typicode/husky)
+- [Video instalando o commitlint, husky e o ](https://www.youtube.com/watch?v=erInHkjxkL8&t=474s)
 - [Clean Code with JS](https://medium.com/trainingcenter/c%C3%B3digo-limpo-vers%C3%A3o-javascript-80adecafdbec)
 
+
 ## Conventional commits
+
+As convenções de commit mais comuns seguem este padrão:
+
+type(scope?): subject
+body?
+footer?
+
+[+ Mais Informações...](https://commitlint.js.org/#/concepts-commit-conventions)
 
 Padrão:
 
