@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h1 align="center">Seja bem-vindo à NeXTIME 🦅</h1>
+<h1 align="center">🦅 Seja bem-vindo à NeXTIME 🦅</h1>
 
 Aqui está a documentação do fluxo de desenvolvimento Web com NextJS
 
