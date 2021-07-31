@@ -16,8 +16,9 @@ Aqui está a documentação do fluxo de desenvolvimento Web com NextJS
 
 Os nossos projetos são desenvolvidos com:
 
-- [React JS](https://reactjs.org/)
-- [Nextjs](https://nextjs.org/)
+- [ReactJS](https://reactjs.org/)
+- [NextJS](https://nextjs.org/)
+- [Porque NextJS](https://www.youtube.com/watch?v=u1kCtkVR7cE&t=2067s)
 - [Chakra-ui](https://chakra-ui.com/)
 - [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 - [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/)
